@@ -6,7 +6,7 @@ parameters to customise their profile card to their needs. Furthermore, profile 
 to reflect a user's status in Genshin Impact.
 
 ## Roadmap
-- [ ] Automatic asset updates
+- [X] Automatic asset updates
 - [ ] Generation of profile cards
 - [ ] Dynamic profile generation
 - [ ] Web application integration
