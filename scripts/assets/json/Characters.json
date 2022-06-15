@@ -1,0 +1,237 @@
+{
+    "10000002": {
+        "iconName": "UI_AvatarIcon_Ayaka.png",
+        "costumes": {}
+    },
+    "10000003": {
+        "iconName": "UI_AvatarIcon_Qin.png",
+        "costumes": {
+            "200301": {
+                "iconName": "UI_AvatarIcon_QinCostumeSea"
+            },
+            "200302": {
+                "iconName": "UI_AvatarIcon_QinCostumeWic"
+            }
+        }
+    },
+    "10000005": {
+        "iconName": "UI_AvatarIcon_PlayerBoy.png",
+        "costumes": {}
+    },
+    "10000006": {
+        "iconName": "UI_AvatarIcon_Lisa.png",
+        "costumes": {}
+    },
+    "10000007": {
+        "iconName": "UI_AvatarIcon_PlayerGirl.png",
+        "costumes": {}
+    },
+    "10000014": {
+        "iconName": "UI_AvatarIcon_Barbara.png",
+        "costumes": {
+            "201401": {
+                "iconName": "UI_AvatarIcon_BarbaraCostumeSummertime"
+            }
+        }
+    },
+    "10000015": {
+        "iconName": "UI_AvatarIcon_Kaeya.png",
+        "costumes": {}
+    },
+    "10000016": {
+        "iconName": "UI_AvatarIcon_Diluc.png",
+        "costumes": {}
+    },
+    "10000020": {
+        "iconName": "UI_AvatarIcon_Razor.png",
+        "costumes": {}
+    },
+    "10000021": {
+        "iconName": "UI_AvatarIcon_Ambor.png",
+        "costumes": {
+            "202101": {
+                "iconName": "UI_AvatarIcon_AmborCostumeWic"
+            }
+        }
+    },
+    "10000022": {
+        "iconName": "UI_AvatarIcon_Venti.png",
+        "costumes": {}
+    },
+    "10000023": {
+        "iconName": "UI_AvatarIcon_Xiangling.png",
+        "costumes": {}
+    },
+    "10000024": {
+        "iconName": "UI_AvatarIcon_Beidou.png",
+        "costumes": {}
+    },
+    "10000025": {
+        "iconName": "UI_AvatarIcon_Xingqiu.png",
+        "costumes": {}
+    },
+    "10000026": {
+        "iconName": "UI_AvatarIcon_Xiao.png",
+        "costumes": {}
+    },
+    "10000027": {
+        "iconName": "UI_AvatarIcon_Ningguang.png",
+        "costumes": {
+            "202701": {
+                "iconName": "UI_AvatarIcon_NingguangCostumeFloral"
+            }
+        }
+    },
+    "10000029": {
+        "iconName": "UI_AvatarIcon_Klee.png",
+        "costumes": {}
+    },
+    "10000030": {
+        "iconName": "UI_AvatarIcon_Zhongli.png",
+        "costumes": {}
+    },
+    "10000031": {
+        "iconName": "UI_AvatarIcon_Fischl.png",
+        "costumes": {}
+    },
+    "10000032": {
+        "iconName": "UI_AvatarIcon_Bennett.png",
+        "costumes": {}
+    },
+    "10000033": {
+        "iconName": "UI_AvatarIcon_Tartaglia.png",
+        "costumes": {}
+    },
+    "10000034": {
+        "iconName": "UI_AvatarIcon_Noel.png",
+        "costumes": {}
+    },
+    "10000035": {
+        "iconName": "UI_AvatarIcon_Qiqi.png",
+        "costumes": {}
+    },
+    "10000036": {
+        "iconName": "UI_AvatarIcon_Chongyun.png",
+        "costumes": {}
+    },
+    "10000037": {
+        "iconName": "UI_AvatarIcon_Ganyu.png",
+        "costumes": {}
+    },
+    "10000038": {
+        "iconName": "UI_AvatarIcon_Albedo.png",
+        "costumes": {}
+    },
+    "10000039": {
+        "iconName": "UI_AvatarIcon_Diona.png",
+        "costumes": {}
+    },
+    "10000041": {
+        "iconName": "UI_AvatarIcon_Mona.png",
+        "costumes": {
+            "204101": {
+                "iconName": "UI_AvatarIcon_MonaCostumeWic"
+            }
+        }
+    },
+    "10000042": {
+        "iconName": "UI_AvatarIcon_Keqing.png",
+        "costumes": {
+            "204201": {
+                "iconName": "UI_AvatarIcon_KeqingCostumeFeather"
+            }
+        }
+    },
+    "10000043": {
+        "iconName": "UI_AvatarIcon_Sucrose.png",
+        "costumes": {}
+    },
+    "10000044": {
+        "iconName": "UI_AvatarIcon_Xinyan.png",
+        "costumes": {}
+    },
+    "10000045": {
+        "iconName": "UI_AvatarIcon_Rosaria.png",
+        "costumes": {
+            "204501": {
+                "iconName": "UI_AvatarIcon_RosariaCostumeWic"
+            }
+        }
+    },
+    "10000046": {
+        "iconName": "UI_AvatarIcon_Hutao.png",
+        "costumes": {}
+    },
+    "10000047": {
+        "iconName": "UI_AvatarIcon_Kazuha.png",
+        "costumes": {}
+    },
+    "10000048": {
+        "iconName": "UI_AvatarIcon_Feiyan.png",
+        "costumes": {}
+    },
+    "10000049": {
+        "iconName": "UI_AvatarIcon_Yoimiya.png",
+        "costumes": {}
+    },
+    "10000050": {
+        "iconName": "UI_AvatarIcon_Tohma.png",
+        "costumes": {}
+    },
+    "10000051": {
+        "iconName": "UI_AvatarIcon_Eula.png",
+        "costumes": {}
+    },
+    "10000052": {
+        "iconName": "UI_AvatarIcon_Shougun.png",
+        "costumes": {}
+    },
+    "10000053": {
+        "iconName": "UI_AvatarIcon_Sayu.png",
+        "costumes": {}
+    },
+    "10000054": {
+        "iconName": "UI_AvatarIcon_Kokomi.png",
+        "costumes": {}
+    },
+    "10000055": {
+        "iconName": "UI_AvatarIcon_Gorou.png",
+        "costumes": {}
+    },
+    "10000056": {
+        "iconName": "UI_AvatarIcon_Sara.png",
+        "costumes": {}
+    },
+    "10000057": {
+        "iconName": "UI_AvatarIcon_Itto.png",
+        "costumes": {}
+    },
+    "10000058": {
+        "iconName": "UI_AvatarIcon_Yae.png",
+        "costumes": {}
+    },
+    "10000060": {
+        "iconName": "UI_AvatarIcon_Yelan.png",
+        "costumes": {}
+    },
+    "10000062": {
+        "iconName": "UI_AvatarIcon_Aloy.png",
+        "costumes": {}
+    },
+    "10000063": {
+        "iconName": "UI_AvatarIcon_Shenhe.png",
+        "costumes": {}
+    },
+    "10000064": {
+        "iconName": "UI_AvatarIcon_Yunjin.png",
+        "costumes": {}
+    },
+    "10000065": {
+        "iconName": "UI_AvatarIcon_Shinobu.png",
+        "costumes": {}
+    },
+    "10000066": {
+        "iconName": "UI_AvatarIcon_Ayato.png",
+        "costumes": {}
+    }
+}

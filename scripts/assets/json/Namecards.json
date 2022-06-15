@@ -1,0 +1,470 @@
+{
+    "210001": {
+        "iconName": "UI_NameCardIcon_0.png",
+        "imageName": "UI_NameCardPic_0_P.png"
+    },
+    "210002": {
+        "iconName": "UI_NameCardIcon_Bp1.png",
+        "imageName": "UI_NameCardPic_Bp1_P.png"
+    },
+    "210003": {
+        "iconName": "UI_NameCardIcon_Ambor.png",
+        "imageName": "UI_NameCardPic_Ambor_P.png"
+    },
+    "210004": {
+        "iconName": "UI_NameCardIcon_Klee.png",
+        "imageName": "UI_NameCardPic_Klee_P.png"
+    },
+    "210005": {
+        "iconName": "UI_NameCardIcon_Diluc.png",
+        "imageName": "UI_NameCardPic_Diluc_P.png"
+    },
+    "210006": {
+        "iconName": "UI_NameCardIcon_Razor.png",
+        "imageName": "UI_NameCardPic_Razor_P.png"
+    },
+    "210007": {
+        "iconName": "UI_NameCardIcon_Venti.png",
+        "imageName": "UI_NameCardPic_Venti_P.png"
+    },
+    "210008": {
+        "iconName": "UI_NameCardIcon_Qin.png",
+        "imageName": "UI_NameCardPic_Qin_P.png"
+    },
+    "210009": {
+        "iconName": "UI_NameCardIcon_Barbara.png",
+        "imageName": "UI_NameCardPic_Barbara_P.png"
+    },
+    "210010": {
+        "iconName": "UI_NameCardIcon_Kaeya.png",
+        "imageName": "UI_NameCardPic_Kaeya_P.png"
+    },
+    "210011": {
+        "iconName": "UI_NameCardIcon_Lisa.png",
+        "imageName": "UI_NameCardPic_Lisa_P.png"
+    },
+    "210012": {
+        "iconName": "UI_NameCardIcon_Sucrose.png",
+        "imageName": "UI_NameCardPic_Sucrose_P.png"
+    },
+    "210013": {
+        "iconName": "UI_NameCardIcon_Fischl.png",
+        "imageName": "UI_NameCardPic_Fischl_P.png"
+    },
+    "210014": {
+        "iconName": "UI_NameCardIcon_Noel.png",
+        "imageName": "UI_NameCardPic_Noel_P.png"
+    },
+    "210015": {
+        "iconName": "UI_NameCardIcon_Mona.png",
+        "imageName": "UI_NameCardPic_Mona_P.png"
+    },
+    "210016": {
+        "iconName": "UI_NameCardIcon_Bennett.png",
+        "imageName": "UI_NameCardPic_Bennett_P.png"
+    },
+    "210017": {
+        "iconName": "UI_NameCardIcon_Xiangling.png",
+        "imageName": "UI_NameCardPic_Xiangling_P.png"
+    },
+    "210018": {
+        "iconName": "UI_NameCardIcon_Xingqiu.png",
+        "imageName": "UI_NameCardPic_Xingqiu_P.png"
+    },
+    "210019": {
+        "iconName": "UI_NameCardIcon_Qiqi.png",
+        "imageName": "UI_NameCardPic_Qiqi_P.png"
+    },
+    "210020": {
+        "iconName": "UI_NameCardIcon_Keqing.png",
+        "imageName": "UI_NameCardPic_Keqing_P.png"
+    },
+    "210021": {
+        "iconName": "UI_NameCardIcon_Csxy1.png",
+        "imageName": "UI_NameCardPic_Csxy1_P.png"
+    },
+    "210022": {
+        "iconName": "UI_NameCardIcon_Mxsy.png",
+        "imageName": "UI_NameCardPic_Mxsy_P.png"
+    },
+    "210023": {
+        "iconName": "UI_NameCardIcon_Yxzl.png",
+        "imageName": "UI_NameCardPic_Yxzl_P.png"
+    },
+    "210024": {
+        "iconName": "UI_NameCardIcon_Md.png",
+        "imageName": "UI_NameCardPic_Md_P.png"
+    },
+    "210025": {
+        "iconName": "UI_NameCardIcon_Ly.png",
+        "imageName": "UI_NameCardPic_Ly_P.png"
+    },
+    "210026": {
+        "iconName": "UI_NameCardIcon_Yszj.png",
+        "imageName": "UI_NameCardPic_Yszj_P.png"
+    },
+    "210027": {
+        "iconName": "UI_NameCardIcon_Sss.png",
+        "imageName": "UI_NameCardPic_Sss_P.png"
+    },
+    "210028": {
+        "iconName": "UI_NameCardIcon_Tzz1.png",
+        "imageName": "UI_NameCardPic_Tzz1_P.png"
+    },
+    "210029": {
+        "iconName": "UI_NameCardIcon_Sj1.png",
+        "imageName": "UI_NameCardPic_Sj1_P.png"
+    },
+    "210030": {
+        "iconName": "UI_NameCardIcon_Olah1.png",
+        "imageName": "UI_NameCardPic_Olah1_P.png"
+    },
+    "210031": {
+        "iconName": "UI_NameCardIcon_Zdg1.png",
+        "imageName": "UI_NameCardPic_Zdg1_P.png"
+    },
+    "210032": {
+        "iconName": "UI_NameCardIcon_Lyws1.png",
+        "imageName": "UI_NameCardPic_Lyws1_P.png"
+    },
+    "210033": {
+        "iconName": "UI_NameCardIcon_Ysxf1.png",
+        "imageName": "UI_NameCardPic_Ysxf1_P.png"
+    },
+    "210038": {
+        "iconName": "UI_NameCardIcon_Ningguang.png",
+        "imageName": "UI_NameCardPic_Ningguang_P.png"
+    },
+    "210039": {
+        "iconName": "UI_NameCardIcon_Beidou.png",
+        "imageName": "UI_NameCardPic_Beidou_P.png"
+    },
+    "210040": {
+        "iconName": "UI_NameCardIcon_Chongyun.png",
+        "imageName": "UI_NameCardPic_Chongyun_P.png"
+    },
+    "210041": {
+        "iconName": "UI_NameCardIcon_Tzz2.png",
+        "imageName": "UI_NameCardPic_Tzz2_P.png"
+    },
+    "210042": {
+        "iconName": "UI_NameCardIcon_Bp2.png",
+        "imageName": "UI_NameCardPic_Bp2_P.png"
+    },
+    "210043": {
+        "iconName": "UI_NameCardIcon_Diona.png",
+        "imageName": "UI_NameCardPic_Diona_P.png"
+    },
+    "210044": {
+        "iconName": "UI_NameCardIcon_Zhongli.png",
+        "imageName": "UI_NameCardPic_Zhongli_P.png"
+    },
+    "210045": {
+        "iconName": "UI_NameCardPic_Xinyan.png",
+        "imageName": "UI_NameCardPic_Xinyan_P.png"
+    },
+    "210046": {
+        "iconName": "UI_NameCardIcon_Tartaglia.png",
+        "imageName": "UI_NameCardPic_Tartaglia_P.png"
+    },
+    "210047": {
+        "iconName": "UI_NameCardPic_Md2.png",
+        "imageName": "UI_NameCardPic_Md2_P.png"
+    },
+    "210048": {
+        "iconName": "UI_NameCardPic_Md1.png",
+        "imageName": "UI_NameCardPic_Md1_P.png"
+    },
+    "210049": {
+        "iconName": "UI_NameCardPic_Ly1.png",
+        "imageName": "UI_NameCardPic_Ly1_P.png"
+    },
+    "210050": {
+        "iconName": "UI_NameCardPic_Ly2.png",
+        "imageName": "UI_NameCardPic_Ly2_P.png"
+    },
+    "210051": {
+        "iconName": "UI_NameCardIcon_Tzz3.png",
+        "imageName": "UI_NameCardPic_Tzz3_P.png"
+    },
+    "210052": {
+        "iconName": "UI_NameCardIcon_Xssdlk.png",
+        "imageName": "UI_NameCardPic_Xssdlk_P.png"
+    },
+    "210053": {
+        "iconName": "UI_NameCardIcon_Ganyu.png",
+        "imageName": "UI_NameCardPic_Ganyu_P.png"
+    },
+    "210054": {
+        "iconName": "UI_NameCardIcon_Albedo.png",
+        "imageName": "UI_NameCardPic_Albedo_P.png"
+    },
+    "210055": {
+        "iconName": "UI_NameCardIcon_Bp3.png",
+        "imageName": "UI_NameCardPic_Bp3_P.png"
+    },
+    "210056": {
+        "iconName": "UI_NameCardIcon_ElderTree.png",
+        "imageName": "UI_NameCardPic_ElderTree_P.png"
+    },
+    "210057": {
+        "iconName": "UI_NameCardIcon_EffigyChallenge.png",
+        "imageName": "UI_NameCardPic_EffigyChallenge_P.png"
+    },
+    "210058": {
+        "iconName": "UI_NameCardIcon_Xiao.png",
+        "imageName": "UI_NameCardPic_Xiao_P.png"
+    },
+    "210059": {
+        "iconName": "UI_NameCardIcon_Hutao.png",
+        "imageName": "UI_NameCardPic_Hutao_P.png"
+    },
+    "210060": {
+        "iconName": "UI_NameCardIcon_Bp4.png",
+        "imageName": "UI_NameCardPic_Bp4_P.png"
+    },
+    "210061": {
+        "iconName": "UI_NameCardIcon_LanternRite.png",
+        "imageName": "UI_NameCardPic_LanternRite_P.png"
+    },
+    "210062": {
+        "iconName": "UI_NameCardIcon_TheatreMechanicus.png",
+        "imageName": "UI_NameCardPic_TheatreMechanicus_P.png"
+    },
+    "210063": {
+        "iconName": "UI_NameCardIcon_Rosaria.png",
+        "imageName": "UI_NameCardPic_Rosaria_P.png"
+    },
+    "210064": {
+        "iconName": "UI_NameCardIcon_Bp5.png",
+        "imageName": "UI_NameCardPic_Bp5_P.png"
+    },
+    "210065": {
+        "iconName": "UI_NameCardIcon_RedandWhite.png",
+        "imageName": "UI_NameCardPic_RedandWhite_P.png"
+    },
+    "210066": {
+        "iconName": "UI_NameCardIcon_Razer.png",
+        "imageName": "UI_NameCardPic_Razer_P.png"
+    },
+    "210067": {
+        "iconName": "UI_NameCardIcon_ChannellerSlab.png",
+        "imageName": "UI_NameCardPic_ChannellerSlab_P.png"
+    },
+    "210068": {
+        "iconName": "UI_NameCardIcon_HideandSeek.png",
+        "imageName": "UI_NameCardPic_HideandSeek_P.png"
+    },
+    "210069": {
+        "iconName": "UI_NameCardIcon_Feiyan.png",
+        "imageName": "UI_NameCardPic_Feiyan_P.png"
+    },
+    "210070": {
+        "iconName": "UI_NameCardIcon_Eula.png",
+        "imageName": "UI_NameCardPic_Eula_P.png"
+    },
+    "210071": {
+        "iconName": "UI_NameCardIcon_Bp6.png",
+        "imageName": "UI_NameCardPic_Bp6_P.png"
+    },
+    "210072": {
+        "iconName": "UI_NameCardIcon_Homeworld.png",
+        "imageName": "UI_NameCardPic_Homeworld_P.png"
+    },
+    "210073": {
+        "iconName": "UI_NameCardIcon_Kazuha.png",
+        "imageName": "UI_NameCardPic_Kazuha_P.png"
+    },
+    "210074": {
+        "iconName": "UI_NameCardIcon_Bp7.png",
+        "imageName": "UI_NameCardPic_Bp7_P.png"
+    },
+    "210075": {
+        "iconName": "UI_NameCardIcon_Homeworld1.png",
+        "imageName": "UI_NameCardPic_Homeworld1_P.png"
+    },
+    "210076": {
+        "iconName": "UI_NameCardIcon_Google.png",
+        "imageName": "UI_NameCardPic_Google_P.png"
+    },
+    "210077": {
+        "iconName": "UI_NameCardIcon_BounceConjuringChallenge.png",
+        "imageName": "UI_NameCardPic_BounceConjuringChallenge_P.png"
+    },
+    "210078": {
+        "iconName": "UI_NameCardIcon_EffigyChallenge02.png",
+        "imageName": "UI_NameCardPic_EffigyChallenge02_P.png"
+    },
+    "210079": {
+        "iconName": "UI_NameCardIcon_Oraionokami.png",
+        "imageName": "UI_NameCardPic_Oraionokami_P.png"
+    },
+    "210080": {
+        "iconName": "UI_NameCardIcon_Bp8.png",
+        "imageName": "UI_NameCardPic_Bp8_P.png"
+    },
+    "210081": {
+        "iconName": "UI_NameCardIcon_Ayaka.png",
+        "imageName": "UI_NameCardPic_Ayaka_P.png"
+    },
+    "210082": {
+        "iconName": "UI_NameCardIcon_Yoimiya.png",
+        "imageName": "UI_NameCardPic_Yoimiya_P.png"
+    },
+    "210083": {
+        "iconName": "UI_NameCardIcon_Sayu.png",
+        "imageName": "UI_NameCardPic_Sayu_P.png"
+    },
+    "210084": {
+        "iconName": "UI_NameCardIcon_Dq1.png",
+        "imageName": "UI_NameCardPic_Dq1_P.png"
+    },
+    "210085": {
+        "iconName": "UI_NameCardIcon_Dq2.png",
+        "imageName": "UI_NameCardPic_Dq2_P.png"
+    },
+    "210086": {
+        "iconName": "UI_NameCardIcon_Ysxf2.png",
+        "imageName": "UI_NameCardPic_Ysxf2_P.png"
+    },
+    "210087": {
+        "iconName": "UI_NameCardIcon_Csxy2.png",
+        "imageName": "UI_NameCardPic_Csxy2_P.png"
+    },
+    "210088": {
+        "iconName": "UI_NameCardIcon_Tzz4.png",
+        "imageName": "UI_NameCardPic_Tzz4_P.png"
+    },
+    "210089": {
+        "iconName": "UI_NameCardIcon_Homeworld2.png",
+        "imageName": "UI_NameCardPic_Homeworld2_P.png"
+    },
+    "210090": {
+        "iconName": "UI_NameCardIcon_Daoqi1.png",
+        "imageName": "UI_NameCardPic_Daoqi1_P.png"
+    },
+    "210091": {
+        "iconName": "UI_NameCardIcon_TheatreMechanicus2.png",
+        "imageName": "UI_NameCardPic_TheatreMechanicus2_P.png"
+    },
+    "210092": {
+        "iconName": "UI_NameCardIcon_Shougun.png",
+        "imageName": "UI_NameCardPic_Shougun_P.png"
+    },
+    "210093": {
+        "iconName": "UI_NameCardIcon_Kokomi.png",
+        "imageName": "UI_NameCardPic_Kokomi_P.png"
+    },
+    "210094": {
+        "iconName": "UI_NameCardIcon_Sara.png",
+        "imageName": "UI_NameCardPic_Sara_P.png"
+    },
+    "210095": {
+        "iconName": "UI_NameCardIcon_Aloy.png",
+        "imageName": "UI_NameCardPic_Aloy_P.png"
+    },
+    "210096": {
+        "iconName": "UI_NameCardIcon_Bp9.png",
+        "imageName": "UI_NameCardPic_Bp9_P.png"
+    },
+    "210097": {
+        "iconName": "UI_NameCardIcon_Daoqi2.png",
+        "imageName": "UI_NameCardPic_Daoqi2_P.png"
+    },
+    "210098": {
+        "iconName": "UI_NameCardIcon_Fishing.png",
+        "imageName": "UI_NameCardPic_Fishing_P.png"
+    },
+    "210099": {
+        "iconName": "UI_NameCardIcon_Concert.png",
+        "imageName": "UI_NameCardPic_Concert_P.png"
+    },
+    "210100": {
+        "iconName": "UI_NameCardIcon_Sumo.png",
+        "imageName": "UI_NameCardPic_Sumo_P.png"
+    },
+    "210101": {
+        "iconName": "UI_NameCardIcon_Tohma.png",
+        "imageName": "UI_NameCardPic_Tohma_P.png"
+    },
+    "210102": {
+        "iconName": "UI_NameCardIcon_Bp10.png",
+        "imageName": "UI_NameCardPic_Bp10_P.png"
+    },
+    "210103": {
+        "iconName": "UI_NameCardIcon_Daoqi3.png",
+        "imageName": "UI_NameCardPic_Daoqi3_P.png"
+    },
+    "210104": {
+        "iconName": "UI_NameCardIcon_Gorou.png",
+        "imageName": "UI_NameCardPic_Gorou_P.png"
+    },
+    "210105": {
+        "iconName": "UI_NameCardIcon_Itto.png",
+        "imageName": "UI_NameCardPic_Itto_P.png"
+    },
+    "210106": {
+        "iconName": "UI_NameCardIcon_Bp11.png",
+        "imageName": "UI_NameCardPic_Bp11_P.png"
+    },
+    "210107": {
+        "iconName": "UI_NameCardIcon_Shenhe.png",
+        "imageName": "UI_NameCardPic_Shenhe_P.png"
+    },
+    "210108": {
+        "iconName": "UI_NameCardIcon_Yunjin.png",
+        "imageName": "UI_NameCardPic_Yunjin_P.png"
+    },
+    "210109": {
+        "iconName": "UI_NameCardIcon_Daoqi4.png",
+        "imageName": "UI_NameCardPic_Daoqi4_P.png"
+    },
+    "210110": {
+        "iconName": "UI_NameCardIcon_Bp12.png",
+        "imageName": "UI_NameCardPic_Bp12_P.png"
+    },
+    "210111": {
+        "iconName": "UI_NameCardIcon_Bartender.png",
+        "imageName": "UI_NameCardPic_Bartender_P.png"
+    },
+    "210112": {
+        "iconName": "UI_NameCardIcon_Yae1.png",
+        "imageName": "UI_NameCardPic_Yae1_P.png"
+    },
+    "210113": {
+        "iconName": "UI_NameCardIcon_Bp13.png",
+        "imageName": "UI_NameCardPic_Bp13_P.png"
+    },
+    "210114": {
+        "iconName": "UI_NameCardIcon_Ayato.png",
+        "imageName": "UI_NameCardPic_Ayato_P.png"
+    },
+    "210115": {
+        "iconName": "UI_NameCardIcon_LuminanceStone.png",
+        "imageName": "UI_NameCardPic_LuminanceStone_P.png"
+    },
+    "210116": {
+        "iconName": "UI_NameCardIcon_Tzz5.png",
+        "imageName": "UI_NameCardPic_Tzz5_P.png"
+    },
+    "210117": {
+        "iconName": "UI_NameCardIcon_Cenyan1.png",
+        "imageName": "UI_NameCardPic_Cenyan1_P.png"
+    },
+    "210118": {
+        "iconName": "UI_NameCardIcon_Bp14.png",
+        "imageName": "UI_NameCardPic_Bp14_P.png"
+    },
+    "210119": {
+        "iconName": "UI_NameCardIcon_Yelan.png",
+        "imageName": "UI_NameCardPic_Yelan_P.png"
+    },
+    "210120": {
+        "iconName": "UI_NameCardIcon_Shinobu.png",
+        "imageName": "UI_NameCardPic_Shinobu_P.png"
+    },
+    "210121": {
+        "iconName": "UI_NameCardIcon_Bp15.png",
+        "imageName": "UI_NameCardPic_Bp15_P.png"
+    }
+}
