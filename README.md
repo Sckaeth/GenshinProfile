@@ -6,13 +6,13 @@ parameters to customise their profile card to their needs. Furthermore, profile 
 to reflect a user's status in Genshin Impact.
 
 ## Roadmap
-- [] Automatic asset updates
-- [] Generation of profile cards
-- [] Dynamic profile generation
-- [] Web application integration
-- [] Additional parameters for generation
-- [] More to come...
+- [ ] Automatic asset updates
+- [ ] Generation of profile cards
+- [ ] Dynamic profile generation
+- [ ] Web application integration
+- [ ] Additional parameters for generation
+- [ ] More to come...
 
 ## Credits
-* The [Enka.Network API](https://enka.shinshin.moe/)
-* DimBreath's [extracted Genshin Data](https://github.com/Dimbreath/GenshinData/)
+* [The Enka.Network API](https://enka.shinshin.moe/)
+* [DimBreath's extracted Genshin Data](https://github.com/Dimbreath/GenshinData/)
