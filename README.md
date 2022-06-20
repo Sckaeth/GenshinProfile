@@ -7,7 +7,7 @@ to reflect a user's status in Genshin Impact.
 
 ## Roadmap
 - [X] Automatic asset updates
-- [ ] Generation of profile cards
+- [X] Generation of profile cards
 - [ ] Dynamic profile generation
 - [ ] Web application integration
 - [ ] Additional parameters for generation
