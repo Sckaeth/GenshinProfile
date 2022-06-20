@@ -8,7 +8,7 @@ json_urls = ["https://raw.githubusercontent.com/Dimbreath/GenshinData/master/Exc
 
 # Checks if an image exists in the assets folder.
 def check_file(file_name):
-    return path.exists(f"./assets/images/{file_name}")
+    return path.exists(f"./assets/images/{file_name}.png")
 
 
 # Downloads a file from a given URL.
@@ -34,9 +34,9 @@ def generate_characters():
             continue
 
         # Downloads any files that haven't already been downloaded.
-        icon_name = f"{character['iconName']}.png"
+        icon_name = f"{character['iconName']}"
         if not check_file(icon_name):
-            download_file("images", f"https://enka.shinshin.moe/ui/{icon_name}")
+            download_file("images", f"https://enka.shinshin.moe/ui/{icon_name}.png")
 
         characters[avatar_id] = {'iconName': icon_name, 'costumes': {}}
 
@@ -44,6 +44,9 @@ def generate_characters():
         file_name = costume['FOINIGFDKIP']
         if file_name == "":
             continue
+
+        if not check_file(file_name):
+            download_file("images", f"https://enka.shinshin.moe/ui/{file_name}.png")
 
         avatar_id = costume['FMAJGGBGKKN']
         costume_id = costume['GMECDCKBFJM']
@@ -69,14 +72,14 @@ def generate_namecards():
         if material_type != "MATERIAL_NAMECARD":
             continue
 
-        icon_name = f"{material['icon']}.png"
-        image_name = f"{material['picPath'][1]}.png"
+        icon_name = f"{material['icon']}"
+        image_name = f"{material['picPath'][1]}"
 
         if not check_file(icon_name):
-            download_file("images", f"https://enka.shinshin.moe/ui/{icon_name}")
+            download_file("images", f"https://enka.shinshin.moe/ui/{icon_name}.png")
             print(icon_name)
         if not check_file(image_name):
-            download_file("images", f"https://enka.shinshin.moe/ui/{image_name}")
+            download_file("images", f"https://enka.shinshin.moe/ui/{image_name}.png")
             print(image_name)
 
         material_id = material['id']
@@ -84,6 +87,7 @@ def generate_namecards():
 
     with open(f'{filepath}/Namecards.json', 'w') as file:
         json.dump(namecards, file, ensure_ascii=False, indent=4)
+
 
 # Generates JSON files used by the application by simplifying pre-existing ones.
 # Referenced assets that are not available locally are downloaded.

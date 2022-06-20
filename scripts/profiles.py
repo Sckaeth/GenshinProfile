@@ -1,3 +1,4 @@
+import re
 from math import sqrt
 from PIL import Image, ImageDraw, ImageFont, ImageChops
 import cv2
@@ -233,7 +234,7 @@ def draw_statistics(image, user_info):
     info_names = {'rank': 'Adventure Rank', 'abyss': 'Spiral Abyss', 'achievements': 'Achievements'}
 
     # Finds the maximum length of the values.
-    max_len = 0
+    max_len = 4
     for key in info_names:
         value_len = len(user_info[key])
         if value_len > max_len:
@@ -286,7 +287,7 @@ def draw_showcase(image, s_type, showcase):
     if s_type == 'characters':
         # Opens a dummy icon and draws every background and shadow first. This is to save time.
         d_icon = Image.open(f"./assets/images/UI_AvatarIcon_PlayerBoy.png")
-        draw_multi_c(image, d_icon, '#9c8c72', 0, 255, 0, (300, 180), (96, 96), [9, 4], [130, 110], True)
+        draw_multi_c(image, d_icon, '#9C8C72', 0, 255, 0, (300, 180), (96, 96), [9, 4], [130, 110], True)
 
         h_offset = -130
         for count, character in enumerate(showcase):
@@ -306,23 +307,21 @@ def draw_showcase(image, s_type, showcase):
 
 
 # Generates a profile for a user based on the given parameters.
-def generate_profile(user_info, user_icon, namecard, showcase):
+def generate_profile(user_info, user_icon, namecard, showcase, bg_colour, size):
     profile_card = Image.open(f"./assets/images/{namecard}.png")
     user_icon = Image.open(f"./assets/images/{user_icon}.png")
 
     # Darkens entire namecard image.
-    profile_card = profile_card.point(lambda colour: colour * 0.6)
-
-    # Rounds the corners on the namecard.
-    namecard_mask = Image.open('./assets/namecard_mask.png')
-    namecard_mask = namecard_mask.convert('L')
-    profile_card.putalpha(namecard_mask)
+    profile_card = profile_card.point(lambda colour: colour * 0.5)
 
     # Draws the username and signature.
     # Signatures have a maximum length of 50, so we split them into two lines on the 26th character.
     signature = user_info['signature']
     if len(signature) > 25:
         signature = signature[:26] + '\n' + signature[26:]
+        # If a new line begins with a space, the space is removed.
+        if signature[27] == " ":
+            signature = signature[:27] + signature[28:]
     add_text(profile_card, '#CCB998', user_info['username'], (238, 50), 40)
     add_text(profile_card, '#A8977B', signature, (250, 110), 17)
 
@@ -331,9 +330,18 @@ def generate_profile(user_info, user_icon, namecard, showcase):
     add_gradient_line(profile_card, [255, 255, 255], [240, 214, 169], (35, 365,  75, 365), 3)
     add_gradient_line(profile_card, [255, 255, 255], [240, 214, 169], (240, 110, 240, 150), 3)
 
+    # If the input icon colour is not a valid hex colour, default to the most dominant colour.
+    bg_valid = re.search(r'^#(?:[0-9a-fA-F]{3}){1,2}$', bg_colour)
+    if not bg_valid:
+        bg_colour = get_colour(user_icon)
+
     # Draws the user's main icon.
-    bg_colour = get_colour(user_icon)
-    add_icon_cf(profile_card, user_icon, bg_colour, '#F0D6A9', 255, 15, (40, 30), (160, 160))
+    try:
+        print(bg_colour)
+        add_icon_cf(profile_card, user_icon, bg_colour, '#F0D6A9', 255, 15, (40, 30), (160, 160))
+    except ValueError:
+        bg_colour = get_colour(user_icon)
+        add_icon_cf(profile_card, user_icon, bg_colour, '#F0D6A9', 255, 15, (40, 30), (160, 160))
 
     # Generates the showcase for namecards or characters.
     if showcase[0] != "":
@@ -345,5 +353,20 @@ def generate_profile(user_info, user_icon, namecard, showcase):
     image = Image.open("./assets/genshin_impact_logo.png").convert("RGBA")
     image = image.resize((86, 31), resample=Image.Resampling.LANCZOS)
     profile_card.paste(image, (735, 15), image)
+
+    # Merges the alpha values into the RGB values to add compatibility with browsers.
+    profile_card = profile_card.convert("RGB")
+    profile_card = profile_card.convert("RGBA")
+
+    # Rounds the corners on the namecard.
+    namecard_mask = Image.open('./assets/namecard_mask.png')
+    namecard_mask = namecard_mask.convert('L')
+    profile_card.putalpha(namecard_mask)
+
+    # Resizes the image if needed.
+    if size != 1:
+        p_size = profile_card.size
+        profile_card = profile_card.resize((int(p_size[0] * size), int(p_size[1] * size)),
+                                           resample=Image.Resampling.LANCZOS)
 
     return profile_card

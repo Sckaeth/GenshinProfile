@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Genshin Profile</title>
+    <style>
+        body {
+            background: antiquewhite;
+        }
+    </style>
+    <script>
+        function getProfile() {
+            let userid = document.getElementById("userid").value;
+            let showcase = document.getElementById("showcase").value;
+            let colour = document.getElementById("colour").value;
+            let size = document.getElementById("size").value;
+            let dominant = document.getElementById("dominant").checked
+
+            let image = document.getElementById("profile");
+            image.style = "visibility: visible";
+            image.src = "{{ url_for('get_profile')}}?userid=" + userid + "&showcase=" + showcase;
+
+            if (colour != "" && !dominant) {
+                // Removes the hashtag from the first character.
+                if (colour[0] == '#') {
+                    colour = colour.substring(1);
+                }
+
+                image.src += "&icon=" + colour;
+            }
+            if (size != "") {
+                image.src += "&size=" + size;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Genshin Profile</h1>
+    <label>
+        UserID:
+        <input id="userid" type="text"><br>
+    </label>
+    <label>
+        Showcase type:
+        <input id="showcase" type="text"><br>
+    </label>
+    <label>
+        Icon colour:
+        <input id="colour" type="text" value="#9C8C72"><br>
+    </label>
+    <label>
+        Profile size:
+        <input id="size" type="text"><br>
+    </label>
+    <label>
+        Use most dominant colour:
+        <input id="dominant" type="checkbox"><br>
+    </label>
+    <br>
+    <button onclick="getProfile()">Get card</button>
+    <br>
+    <img id="profile" style="visibility: hidden">
+</body>
+</html>
