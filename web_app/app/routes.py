@@ -1,7 +1,7 @@
 from flask import send_file, request, render_template, send_from_directory, json
 from app import app
 from app.api import profiles
-import requests
+import cloudscraper
 from io import BytesIO
 import time
 
@@ -96,7 +96,8 @@ def get_profile():
     bg_colour = "#" + bg_colour
 
     # Gets the user's data from the Enka Network API. If the user does not exist, the user is redirected elsewhere.
-    user_data = requests.get(f"https://enka.shinshin.moe/u/{userid}/__data.json").json()
+    user_data = cloudscraper.create_scraper(browser={'browser': 'firefox','platform': 'windows','mobile': False})
+    user_data = user_data.get(f"https://enka.shinshin.moe/u/{userid}/__data.json").json()
     if 'playerInfo' not in user_data:
         return send_error_image(showcase)
     user_data = user_data['playerInfo']
